@@ -1,4 +1,5 @@
 
+
 header {
     text-align: center;
     background-color: #054644;
@@ -97,8 +98,10 @@ footer {
 }
 
 .guayu .texto {
+    background-color: #ffffff; /* Fondo sólido blanco */
     background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejorar la legibilidad */
     padding: 200px; /* Espacio entre el texto y el fondo */
+
 }
 
 
@@ -112,6 +115,7 @@ footer {
 }
 
 .guayu.mapa {
+    /* Estilos para elementos con las clases guayu y mapa */
     position: absolute; /* Permite posicionar el iframe de Google Maps con respecto a .guayu */
     bottom: 0; /* Coloca el iframe en la parte inferior */
     left: 20%; /* Centra el iframe horizontalmente */
