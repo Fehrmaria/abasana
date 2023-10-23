@@ -1,0 +1,186 @@
+
+header {
+    text-align: center;
+    background-color: #054644;
+
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    header {
+        padding: 20px; /* Añade más espacio en los bordes del encabezado */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 767px) {
+    header {
+        background-color: #333; /* Cambia el color de fondo en pantallas pequeñas */
+        padding: 10px; /* Reduce el espacio en los bordes del encabezado */
+    }
+}
+
+nav ul {   
+
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: cornsilk  ; /* Color del texto del enlace */
+    font-weight: bold;
+    
+}
+                                    
+header nav {
+    text-align: center; /* Opcional: centrar los elementos en el contenedor */
+}
+
+header nav a {
+    text-decoration: none;
+    color: aliceblue; /* Color del texto del enlace */
+    font-weight: bold;
+    display: inline-block; /* Muestra los enlaces en línea */
+    margin: 0 20px; /* Añade margen horizontal entre los enlaces */  }
+
+footer { 
+    text-align: center; /*   Alinear el texto al*/
+    margin-top: 350px; /* Ajusta el valor según la distancia que desees */
+
+    
+}
+
+.Tienda {
+
+    text-align: center; /* Centra el contenido horizo
+    margin-top: 20px; /* Ajusta este valor según sea necesario para alinear el texto debajo del encabezado */
+    margin-bottom: 100px; /* Puedes ajustar el valor según sea necesario */
+    padding: 5px ; /* Ajusta el relleno según tus necesidades */
+    background-color: #f8b3bc;
+}
+
+.pie {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+25% {
+    color: #054644;
+}
+
+
+100%   {
+    opacity: 1;
+    color: #f8b3bc;
+}
+}
+
+.guayu {
+    background-image: url('../assets/Hebras.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    background-position: center center;
+    opacity: 0.5;
+    /* Resto de las propiedades */
+    height: 300vh; /* Establece la altura al 100% de la ventana */
+}
+
+.guayu .texto {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejorar la legibilidad */
+    padding: 200px; /* Espacio entre el texto y el fondo */
+}
+
+
+.guayu p {
+    color: rgb(4, 4, 4); /* Color del texto en blanco */
+}
+.img {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejorar la legibilidad del footer */
+    padding: 200px; /* Espacio entre el texto y el fondo del footer */
+    text-align: center; /* Centra el contenido del footer horizontalmente */
+}
+
+.guayu.mapa {
+    position: absolute; /* Permite posicionar el iframe de Google Maps con respecto a .guayu */
+    bottom: 0; /* Coloca el iframe en la parte inferior */
+    left: 20%; /* Centra el iframe horizontalmente */
+    transform: translateX(-50%); /* Centra horizontalmente el iframe */
+    z-index: 2; /* Asegura que el iframe esté por encima de la imagen de fondo */
+}
+
+.variedades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Esto crea 3 columnas */
+    grid-gap: 20px; /* Ajusta el margen entre columnas y filas según tus preferencias */
+}
+
+.variedad {
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 10px; /* Agrega un poco de espacio alrededor de cada variedad */
+    margin: 10px; /* Agrega margen entre las variedades de té */
+}
+
+.variedad img {
+    display: block; /* Convierte la imagen en un elemento de bloque para alinear verticalmente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    max-width: 100%;
+}
+
+.variedad h2 {
+    margin: 10px 0; /* Agrega margen arriba y abajo para separar el título y la descripción */
+}
+
+.variedad p {
+    margin: 5px 0; /* Ajusta el margen del párrafo según tus necesidades */
+}
+
+.formu {
+    background-color: #f8b3bc ;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+margin: 10px  ;
+}
+
+.contacto {
+margin: 20px;
+
+}
+
+.redes-sociales {
+    text-align: center;
+}
+
+.contenedor {
+    width: 100%; /* Ancho completo para pantallas más pequeñas */
+    max-width: 1600px; /* Ancho máximo de 1600px */
+    margin: 0 auto; /* Centra el contenido en la pantalla */
+}
+
+/* Resto de tus estilos CSS */
+
+
+/* Estilos para pantallas grandes */
+@media (min-width: 1200px) {
+    /* Estilos específicos para pantallas grandes */
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 991px) {
+    /* Estilos específicos para pantallas medianas */
+}
+
+
+
+
+
