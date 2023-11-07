@@ -184,7 +184,14 @@ margin: 20px;
     /* Estilos específicos para pantallas medianas */
 }
 
+.btn1 {
+    color: rgb(18, 18, 18); 
+    border: 2px solid #090909; /* Borde del botón */
+    border-radius: 4px; /* Añade esquinas redondeadas al botón */
+}
 
-
-
+.btn1:hover {
+    background-color: #f8b3bc; /* Cambia el color de fondo en el hover (cuando el mouse está encima) */
+    color: #fff; /* Cambia el color del texto en el hover */
+}
 
